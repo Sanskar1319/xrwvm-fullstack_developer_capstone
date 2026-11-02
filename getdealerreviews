@@ -1,0 +1,27 @@
+curl -X GET http://localhost:8000/djangoapp/get_reviews/15
+[
+  {
+    "id": 1,
+    "name": "Berkly Miller",
+    "dealership": 15,
+    "review": "Great customer service and transparent pricing! Highly recommend this branch.",
+    "purchase": true,
+    "purchase_date": "02/16/2023",
+    "car_make": "Toyota",
+    "car_model": "Camry",
+    "car_year": 2022,
+    "sentiment": "positive"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Connor",
+    "dealership": 15,
+    "review": "Smooth buying experience, friendly sales reps, and fast paperwork.",
+    "purchase": true,
+    "purchase_date": "08/11/2023",
+    "car_make": "Honda",
+    "car_model": "Civic",
+    "car_year": 2023,
+    "sentiment": "positive"
+  }
+]

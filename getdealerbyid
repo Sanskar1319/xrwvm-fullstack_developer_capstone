@@ -1,0 +1,13 @@
+curl -X GET http://localhost:8000/djangoapp/dealer/15
+{
+  "id": 15,
+  "city": "Topeka",
+  "state": "Kansas",
+  "st": "KS",
+  "address": "782 Memorial Junction",
+  "zip": "66606",
+  "lat": 39.0494,
+  "long": -95.7335,
+  "short_name": "Kansas Premier Auto",
+  "full_name": "Kansas Premier Auto Dealership"
+}

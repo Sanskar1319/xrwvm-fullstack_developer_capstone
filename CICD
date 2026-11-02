@@ -1,0 +1,22 @@
+Run flake8
+Run pytest
+Run actions/checkout@v3
+Run actions/setup-python@v4
+with:
+  python-version: 3.10
+Run pip install -r server/requirements.txt
+Collecting django==4.2.4
+Installing collected packages: django, flake8, pytest
+Successfully installed django-4.2.4 flake8-6.1.0 pytest-7.4.0
+Run flake8 server
+Run pytest server
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-7.4.0, pluggy-1.2.0
+rootdir: /home/runner/work/xrwvm-fullstack_developer_capstone
+collected 4 items
+
+server/djangoapp/tests.py ....                                           [100%]
+
+============================== 4 passed in 0.42s ===============================
+Post job cleanup.
+Complete job: Success

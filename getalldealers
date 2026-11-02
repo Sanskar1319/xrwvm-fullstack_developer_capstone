@@ -1,0 +1,39 @@
+curl -X GET http://localhost:8000/djangoapp/get_dealers
+[
+  {
+    "id": 1,
+    "city": "El Paso",
+    "state": "Texas",
+    "st": "TX",
+    "address": "3Tree Court",
+    "zip": "79915",
+    "lat": 31.7781,
+    "long": -106.3764,
+    "short_name": "Holdlamis",
+    "full_name": "Holdlamis Car Dealership"
+  },
+  {
+    "id": 15,
+    "city": "Topeka",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "782 Memorial Junction",
+    "zip": "66606",
+    "lat": 39.0494,
+    "long": -95.7335,
+    "short_name": "Kansas Premier Auto",
+    "full_name": "Kansas Premier Auto Dealership"
+  },
+  {
+    "id": 20,
+    "city": "Wichita",
+    "state": "Kansas",
+    "st": "KS",
+    "address": "400 E Douglas Ave",
+    "zip": "67202",
+    "lat": 37.6872,
+    "long": -97.3301,
+    "short_name": "Midwest Motors",
+    "full_name": "Midwest Motors Dealership"
+  }
+]
